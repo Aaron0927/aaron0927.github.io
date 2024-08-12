@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "UINavigationController常见用法"
-date:   2024-08-12 22:30:00 +0800
+title: "UINavigationController常见用法"
+date: 2024-08-12 22:30:00 +0800
 categories: jekyll blog
 ---
 
@@ -24,8 +24,7 @@ UINavigationController
 		|-UIViewController ~> UINavigationItem
 		|...
 ```
-
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/60b240fec1474158819c7f40b3a5fb96~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp)
+![](../static/img/UINavigationController.awebp)
 
 1. UINavigationController 只有一个 UINavigationBar，对UINavigationBar修改会影响到所有页面的显示
 2. UINavigationController有 viewControllers 对象，UINavigationBar有 items 对象，每一个 Controller 有自己的 UINavigationItem，可以对自己的UINavigationItem修改

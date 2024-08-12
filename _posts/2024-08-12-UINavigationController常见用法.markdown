@@ -5,6 +5,7 @@ date:   2024-08-12 22:30:00 +0800
 categories: jekyll blog
 ---
 
+
 本文主要是收集关于`UINavigationController`相关的常用功能，对于`UINavigationController`的介绍，下面的文章介绍的很详细了：
 * [# 学习UINavigationController（1）](https://juejin.cn/post/6937492008160198663)
 * [# 学习UINavigationController（2）](https://juejin.cn/post/6937878071370334215/)
@@ -49,6 +50,7 @@ override func pushViewController(_ viewController: UIViewController, animated: B
 	1. 创建`BaseViewController`，作为所有控制器的基类
 	2. 通过设置透明图片来隐藏系统导航栏，但是保留系统导航栏的交互效果
 	3. 创建自定义导航栏方法
+
 示例代码如下：
 ```swift
 override func viewDidLoad() {

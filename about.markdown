@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
 
 ### Hi 👋
 
-I'm Aaron, iOS Developer from Guangdong, China.
+我是 Aaron, 一名从事多年的iOS开发者，目前在深圳
 
+专注于 iOS 开发，业余时间也学习前端和后台的开发技术，致力于成为一个全栈开发工程师
 
-- 🔭 I’m currently working on finance soft field
-- 🌱 I’m currently learning SwiftUI, Django
 - 🛠 Lang: Swift, Objective-C, Python
 - 📮 Contact me: aaronxiao0927@gmail.com
+- 🏫 Graduation school: 湖北工业大学
+- 📖 Blog: https://aaron0927.github.io/

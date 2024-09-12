@@ -18,19 +18,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# 网站基本信息
 title: Aaron's 博客
-email: aaronxiao0927@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  我的github pages
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kim_18162579527
-github_username:  Aaron0927
+description: 程序员的成长日志 | 记录编程之路上的挑战、收获与思考
+baseurl: ""
+url: "https://aaron0927.github.io"
 
-# Build settings
+# 作者信息
+author:
+  name: Aaron
+  bio: 一个热爱编程的程序员
+  email: aaronxiao0927@gmail.com
+  github: Aaron0927
+
+# 社交媒体
+social:
+  github: Aaron0927
+
+# 构建设置
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +61,13 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# 语言和时区
+language: zh-CN
+timezone: Asia/Shanghai
+
+# 增量构建
+incremental: true
+
+# 其他设置
+show_excerpts: true
